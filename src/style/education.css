@@ -1,0 +1,39 @@
+
+#education{
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.heading-subtitle{
+    padding: 20px 0;
+}
+.card{
+    border: none;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-text{
+    font-size: 16px;
+    font-weight: 400;
+}
+.education-container .row{
+    display: flex;
+    justify-content: center;
+    padding:20px ;
+}
+
+@media screen and (max-width: 768px){
+    .education-container .row{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+  }

@@ -1,0 +1,29 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: var(--secondary-color) !important;
+  z-index: 10;
+}
+
+nav a,
+nav button {
+  color: var(--text-color) !important;
+  font-weight: 700;
+}
+
+section {
+  padding: 20px;
+  min-height: 100vh;
+  width: auto;
+  background-color: var(--secondary-color);
+  padding-top: 70px;
+}
+
+section .heading {
+  text-align: center;
+  color: #020133;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  font-family: 'Kanit', sans-serif !important;
+  font-size: clamp(24px, 4vw, 40px);
+}
