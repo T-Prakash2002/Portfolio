@@ -61,7 +61,6 @@
 #linkedinIcon:hover,
 #emailIcon:hover {
   color: var(--hover-color);
-  color: var(--hover-color);
 }
 
 .info-right .head {
