@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+#contact {
+  background-color: #fff;
+}
+
+.contact-container {
+  margin-top: 30px;
+  padding: 20px;
+}
+.contact-container .letsThing {
+  font-weight: 400;
+  font-family: "poppins", sans-serif;
+}
+.contact-container .row .text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.contact-container .info .sub-title {
+  position: relative;
+  left: 50px;
+}
+.head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #000;
+  font-weight: 600;
+}
+
+.head i {
+  width: 30px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons .row a {
+  display: inline-block;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.icons .row a:hover {
+  color: var(--hover-color);
+  transition: all 0.3s ease-in-out;
+}
+
+#githubIcon,
+#linkedinIcon,
+#emailIcon {
+  font-size: 22px;
+}
+#githubIcon:hover,
+#linkedinIcon:hover,
+#emailIcon:hover {
+  color: var(--hover-color);
+  color: var(--hover-color);
+}
+
+.info-right .head {
+  padding: 10px;
+}
+
+.info-right .head a {
+  display: inline-block;
+  color: var(--text-color);
+  text-decoration: none;
+}
+.info-right .head i {
+  width: 30px;
+  height: 30px;
+  color: #000;
+}
+.icon-link {
+  color: var(--text-color);
+  font-size: clamp(12px, 1.5vw, 15px);
+}
+
+.info-right a i .tooltiptext{
+  font-size: 14px;
+  font-weight: 700;
+  font-family:var(--font-nunito); 
+}
+
+.info-right a i span,
+.head i {
+  font-size: 10px;
+  letter-spacing: 4px;
+  font-weight: 700;
+}
+.info-right a i span:hover {
+  color: var(--theme-color);
+}

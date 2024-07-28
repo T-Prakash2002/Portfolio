@@ -4,15 +4,16 @@
     background-color: var(--theme-color) !important;
 }
 .box-container{
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    grid-gap: 1rem;
     justify-content: center;
-    flex-wrap: wrap;
-    padding: 2.5rem;
+    padding: 1.5rem;
 }
 .box{
     flex: 1 1 25rem;
     color: var(--text-1);
-
 }
 .box h3{
     color: var(--bg-color);
@@ -32,8 +33,7 @@
     color: var(--text-1);
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.2rem;
-    padding: 0.5rem 0;
+    padding: 0.3rem 0;
     display: block;
     
 }
@@ -59,7 +59,7 @@
 }
 .share a i:hover{
     color: var(--text-1);
-    transform: scale(1.03);
+    transform: scale(1.003);
 }
 #footer .credit {
     padding: 1rem 0 0 0;

@@ -74,16 +74,17 @@ function App() {
               </li>
 
               <li className="nav-item">
+                <a className="nav-link" href="#projects">
+                  Projects
+                </a>
+              </li>
+
+              <li className="nav-item">
                 <a className="nav-link" href="#education">
                   Education
                 </a>
               </li>
 
-              <li className="nav-item">
-                <a className="nav-link" href="#projects">
-                  Projects
-                </a>
-              </li>
 
               <li className="nav-item">
                 <a className="nav-link" href="#contact">
@@ -121,17 +122,17 @@ function App() {
       {/* SKILLS */}
       <Skills skills={skills}/>
 
+      {/* Projects Section */}
+      <Projects projects={projects} />
 
       {/* EDUCATION */}
       <Education 
       education={education}
       />
 
-      {/* Projects Section */}
-      <Projects projects={projects} />
 
       {/* Contact Section */}
-      <Contact />
+      <Contact contacts={contacts} full_name={full_name}/>
 
       {/* Footer Section */}
       <Footer first_name={first_name} contacts={contacts} />

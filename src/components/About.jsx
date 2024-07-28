@@ -37,7 +37,7 @@ const About = ({ full_name, image, role, resume, contacts, year, age }) => {
             </p>
 
             <div className="btn resumebtn">
-              <a href={resume} target="_blank" className="btn">
+              <a href={resume} target="_blank" className="btn btn-link">
                 <span>Resume</span>
                 <i className="fas fa-chevron-right"></i>
               </a>

@@ -9,6 +9,7 @@ nav a,
 nav button {
   color: var(--text-color) !important;
   font-weight: 700;
+  font-size: 13px;
 }
 
 section {
@@ -25,5 +26,5 @@ section .heading {
   font-weight: 800;
   margin-bottom: 2rem;
   font-family: 'Kanit', sans-serif !important;
-  font-size: clamp(24px, 4vw, 40px);
+  font-size: clamp(24px, 4vw, 36px);
 }

@@ -1,0 +1,85 @@
+.projects {
+  background-color: rgb(255, 255, 255);
+}
+
+#projects .project-container {
+  display: flex;
+  justify-items: center;
+  padding: 15px 20px;
+}
+
+
+#projects img {
+   position: relative;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 70%;
+    border: 3px double rgb(108, 177, 177);
+    transition: all 0.3s ease;
+}
+
+
+
+#projects .project-container .card {
+  height: 320px;
+  width: 260px;
+  background: rgba(216, 216, 223, 0.678);
+  border-radius: 3px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.project-container .card:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: none;
+}
+
+.project-container .card .card-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+.project-container .card .card-box:hover {
+  transform: scale(1.02);
+}
+.techUsed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#projects .btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#projects .btn-container .btn {
+  margin: 5px;
+}
+
+.btn-container a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.btn-container a:hover{
+    color: var(--text-color);
+}
+
+.btn-container a:active{
+    color: var(--primary-color);
+}
+
+#projects .btn-container .btn:active{
+    outline: none;  
+}

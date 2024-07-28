@@ -10,6 +10,11 @@ import mongodb from './assets/icons/mongodb-icon-1-1.svg'
 import mysql from './assets/icons/mysql-3.svg'
 import github from './assets/icons/github-icon-1 (1).svg'
 
+import task from './assets/projects/Task-management.jpg'
+import egadgets from './assets/projects/E-gadgets.jfif'
+import tours from './assets/projects/tour-management.jfif'
+import real from './assets/projects/real-estate.jpg'   
+
 
 const data={
     "id": 1,
@@ -21,7 +26,7 @@ const data={
         "email": "prakasht1405@gmail.com",
         "phone": "9894976519",
         "address": {
-            "Door No": "5/184",
+            "Door_No": "5/184",
             "Street": "Arshana Street",
             "Village": "S.N.Puthur",
             "Taluk": "Thuraiyur",
@@ -34,27 +39,22 @@ const data={
         {
             "name": "LinkedIn",
             "icon_images": "https://img.icons8.com/color/48/000000/linkedin.png",
-            "link": "https://www.linkedin.com/in/prakash-t-1405/",
+            "link": "prakash1405",
             "icon_class": "fab fa-linkedin"
-        },
-        {
-            "name": "Instagram",
-            "icon_images": "https://img.icons8.com/color/48/000000/instagram-new.png",
-            "link": "https://www.instagram.com/prakash_t_1405/",
-            "icon_class": "fab fa-instagram"
-        },
-        {
-            "name": "Twitter",
-            "icon_images": "https://img.icons8.com/color/48/000000/twitter.png",
-            "link": "https://twitter.com/prakash_t_1405",
-            "icon_class": "fab fa-twitter"
         },
         {
             "name": "Github",
             "icon_images": "https://img.icons8.com/color/48/000000/github.png",
-            "link": "https://github.com/prakasht1405",
+            "link": "T-Prakash2002",
             "icon_class": "fab fa-github"
-        }
+        },
+        {
+            "name": "GMail",
+            "icon_images": "https://img.icons8.com/color/48/000000/gmail.png",
+            "link": "mailto:prakasht1405@gmail.com",
+            "icon_class": "fas fa-envelope"
+        },
+        
         
     ]
     },
@@ -102,27 +102,34 @@ const data={
     "projects": [
         {
             "name": "Task Management System",
-            "front_end": "https://github.com/prakasht1405/Task_management_system",
-            "back_end": "https://github.com/prakasht1405/Task_management_system",
-            "image": "https://github.com/prakasht1405/Task_management_system/blob/main/images/Task_management_system.png?raw=true"
+            "front_end": "https://github.com/T-Prakash2002/Task-Management-FrontEnd.git",
+            "back_end": "https://github.com/T-Prakash2002/Task-Management-BackEnd.git",
+            "image": task,
+            "live_link": "https://task-management-task123.netlify.app/",
+            "tech_used": "ReactJs,Nodejs,MongoDB"
         },
         {
             "name": "E-Store",
-            "front_end": "https://github.com/prakasht1405/E-Store",
-            "back_end": "https://github.com/prakasht1405/E-Store",
-            "image": "https://github.com/prakasht1405/E-Store/blob/main/images/E-Store.png?raw=true"
+            "front_end": "https://github.com/T-Prakash2002/E-Store-ForntEnd",
+            "back_end": "https://github.com/T-Prakash2002/E-Store-BackEnd",
+            "image": egadgets,
+            "live_link": "https://e-digital-stores.netlify.app/",
+            "tech_used": "ReactJs,Nodejs,MongoDB"
         },
         {
             "name": "Tour Management System",
             "front_end": "https://github.com/prakasht1405/Tour-Management-System",
             "back_end": "https://github.com/prakasht1405/Tour-Management-System",
-            "image": "https://github.com/prakasht1405/Tour-Management-System/blob/main/images/Tour-Management-System.png?raw=true"
+            "image": tours,
+            "live-link":""
         },
         {
-            "name": "Real Estate Management System",
-            "front_end": "https://github.com/prakasht1405/Tour-Management-System",
-            "back_end": "https://github.com/prakasht1405/Tour-Management-System",
-            "image": "https://github.com/prakasht1405/Tour-Management-System/blob/main/images/Tour-Management-System.png?raw=true"
+            "name": "Real-Estate Management",
+            "front_end": "https://github.com/T-Prakash2002/Real-EState-FrontEnd.git",
+            "back_end": "https://github.com/T-Prakash2002/Real-EState-BackEnd.git",
+            "image": real,
+            "live_link":"https://real-estate-464.netlify.app/",
+            "tech_used": "ReactJs,Nodejs,MongoDB"
         }
     ],
     "skills": [

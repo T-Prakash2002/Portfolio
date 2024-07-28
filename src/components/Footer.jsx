@@ -3,9 +3,9 @@ import '../style/footer.css'
 
 const Footer = ({first_name,contacts}) => {
   return (
-    <section id="footer" className="footer border">
+    <section id="footer" className="footer">
       <div className="box-container">
-        <div className="box">
+        <div className="box ">
           <h3>{first_name}'s Portfolio</h3>
           <p>
             Thank you for visiting my personal portfolio website. Connect with
@@ -25,13 +25,15 @@ const Footer = ({first_name,contacts}) => {
           <a href="#skills">
             <i className="fas fa-chevron-circle-right"></i> Skills
           </a>
-          <a href="#education">
-            <i className="fas fa-chevron-circle-right"></i> Education
-          </a>
+
           <a href="#projects">
             <i className="fas fa-chevron-circle-right"></i> Projects
           </a>
-          <a href="#contacts">
+          <a href="#education">
+            <i className="fas fa-chevron-circle-right"></i> Education
+          </a>
+          
+          <a href="#contact">
             <i className="fas fa-chevron-circle-right"></i> Contacts
           </a>
         </div>

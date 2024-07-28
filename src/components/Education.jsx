@@ -15,7 +15,7 @@ const Education = ({ education }) => {
         </p>
       </div>
       <div className="education-container justify-content-center">
-          <div className="row gap-4">
+          <div className="row gap-4 justify-content-center">
 
             <div className="col-12" style={{width:"600px"}}>
               <div className="card">
@@ -35,7 +35,7 @@ const Education = ({ education }) => {
 
               </div>
             </div>
-            <div className="col-12 " style={{width:"600px"}}>
+            <div className="col-12" style={{width:"600px"}}>
               <div className="card">
                 <div className="card-body">
                   <h4 className="card-title">

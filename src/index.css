@@ -26,6 +26,7 @@
   --bg-color: #fffafa;
   --text-size: clamp(1em, 1vw, 1.5em);
   --font-nunito: "Nunito";
+  --hover-color: #565e50;
 }
 
 html {
