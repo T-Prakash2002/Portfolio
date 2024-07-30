@@ -185,7 +185,7 @@ const data={
         }
     ],
     
-    "resume": "",
+    "resume": "https://drive.google.com/file/d/1h80T4FX7jX_PLLZWFrvsrZGxBJ1-DHMc/view?usp=sharing",
     "language": ["English","Tamil"]
     
 }
