@@ -63,7 +63,7 @@ const data={
     "image": img,
     "about": "I am a Full stack Developer",
     "role": [
-        "Full Stack Developer",
+        "MERN Full Stack Developer",
         "Web Developer"
     ],
     "education": {
