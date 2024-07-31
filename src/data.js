@@ -118,10 +118,10 @@ const data={
         },
         {
             "name": "Tour Management System",
-            "front_end": "https://github.com/prakasht1405/Tour-Management-System",
-            "back_end": "https://github.com/prakasht1405/Tour-Management-System",
+            "front_end": "https://github.com/T-Prakash2002/Tour_Management_FE.git",
+            "back_end": "https://github.com/T-Prakash2002/Tour_Management_BE.git",
             "image": tours,
-            "live-link":""
+            "live-link":"https://tour-management001.netlify.app"
         },
         {
             "name": "Real-Estate Management",
