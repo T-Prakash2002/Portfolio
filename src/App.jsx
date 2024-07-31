@@ -21,6 +21,7 @@ function App() {
     age,
     contacts,
     image,
+    heroImg,
     about,
     role,
     education,
@@ -101,8 +102,8 @@ function App() {
 
       <Home 
       full_name={full_name} 
-      contacts={contacts} 
-      image={image}
+      contacts={contacts}
+      image={heroImg}
       role={role}
        />
 

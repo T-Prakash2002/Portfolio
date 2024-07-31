@@ -15,7 +15,6 @@ const Contact = ({ contacts, full_name }) => {
               Let me build the website you need & <br /> Let's build something
               great!
             </p>
-            <p>
               <div className="info">
                 <div className="head">
                   <i className="fas fa-user"></i>
@@ -23,8 +22,7 @@ const Contact = ({ contacts, full_name }) => {
                 </div>
                 <span className="sub-title">{full_name}</span>
               </div>
-            </p>
-            <p>
+
               <div className="info">
                 <div className="head">
                   <i className="fas fa-map-marker-alt"></i>Address
@@ -36,15 +34,12 @@ const Contact = ({ contacts, full_name }) => {
                   {contacts.address.Country},{contacts.address.Pincode}
                 </div>
               </div>
-            </p>
-            <p>
               <div className="info">
                 <div className="head">
                   <i className="fa fa-phone"></i>Phone
                 </div>
                 <div className="sub-title">+91 - {contacts.phone}</div>
               </div>
-            </p>
           </div>
           <div className="co-12 col-md-6">
             <div className="icons">

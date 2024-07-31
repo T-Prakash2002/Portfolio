@@ -1,4 +1,5 @@
 import img from './assets/images/profile_1.png'
+import heroImg from './assets/images/hero.jpeg'
 import html from './assets/icons/html-1 (1).svg'
 import css from './assets/icons/css-3 (1).svg'
 import js from './assets/icons/javascript-1 (1).svg'
@@ -58,6 +59,7 @@ const data={
         
     ]
     },
+    "heroImg":heroImg,
     "image": img,
     "about": "I am a Full stack Developer",
     "role": [

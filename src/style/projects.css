@@ -23,7 +23,7 @@
 
 #projects .project-container .card {
   height: 320px;
-  width: 260px;
+  width: 300px;
   background: rgba(216, 216, 223, 0.678);
   border-radius: 3px;
   padding: 25px 35px;
@@ -45,6 +45,7 @@
   align-items: center;
   transition: all 0.3s ease-in-out;
 }
+
 .project-container .card .card-box:hover {
   transform: scale(1.02);
 }
@@ -54,7 +55,6 @@
   justify-content: center;
   align-items: center;
 }
-
 #projects .btn-container {
   display: flex;
   justify-content: center;
