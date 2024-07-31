@@ -12,7 +12,7 @@ const Home = ({ full_name, contacts, role, image }) => {
         <div className="right ">
           <h6>
           Hi There,
-          <br /> I'm <span>{full_name} </span>
+          <br /> I'm <span className="">{full_name} </span>
         </h6>
         <p>
           I am into <span className="typing-text">{role[0]}</span>
