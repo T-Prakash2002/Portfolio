@@ -123,7 +123,8 @@ const data={
             "front_end": "https://github.com/T-Prakash2002/Tour_Management_FE.git",
             "back_end": "https://github.com/T-Prakash2002/Tour_Management_BE.git",
             "image": tours,
-            "live_link":"https://tour-management001.netlify.app/"
+            "live_link":"https://tour-management001.netlify.app/",
+            "tech_used": "ReactJs,Nodejs,MongoDB"
         },
         {
             "name": "Real-Estate Management",

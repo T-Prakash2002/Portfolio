@@ -24,7 +24,7 @@ const Projects = ({ projects }) => {
                 <div className="text">{project.name}</div>
                 <p>
                   {" "}
-                  Technologies: <b className="techUsed">ReactJs,Nodejs,MongoDB </b>
+                  Technologies: <b className="techUsed">{project.tech_used} </b>
                 </p>
                 <br />
                 <div className="btn-container">
