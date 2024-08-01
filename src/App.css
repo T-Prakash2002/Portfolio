@@ -26,5 +26,5 @@ section .heading {
   font-weight: 800;
   margin-bottom: 2rem;
   font-family: 'Kanit', sans-serif !important;
-  font-size: clamp(24px, 4vw, 36px);
+  font-size: clamp(28px, 5vw, 36px);
 }

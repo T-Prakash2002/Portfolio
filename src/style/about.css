@@ -1,10 +1,51 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&display=swap');
+
+
 #about{
   margin: 0;
 }
-.image{
+.row .image{
   display: ruby;
+  align-items: center;
 }
+#about .image img{
+  object-fit: cover;
+  box-shadow: 0px 0px 10px var(--theme-color);
+  background:radial-gradient(circle at 0% 0%, rgba(255, 255, 255,0.3), transparent);
+  border-radius: 10px;
+}
+
+#about .content{
+  padding: 20px;
+  align-content: center;
+}
+#about .content h3{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.tag{
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: var(--theme-color);
+  color: var(--bg-color);
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.content p{
+   font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+  font-style: normal;
+
+}
+
+
+
 .resumebtn{
   border-radius: 15px;
   display: flex;

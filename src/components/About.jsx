@@ -11,15 +11,15 @@ const About = ({ full_name, image, role, resume, contacts, year, age }) => {
 
         <div className="row">
 
-          <div className="image col-12 col-sm-5">
+          <div className="image col-12 col-sm-12 col-md-5">
             <img className="w-50 " src={image} />
           </div>
 
-          <div className="content col-12 col-sm-7">
+          <div className="content col-12 col-sm-12 col-md-7">
             <h3 className="col-12 col-md-12">I'm {full_name}</h3>
             <span className="tag ">{role[0]}</span>
 
-            <p>
+            <p className="col-12 col-md-12 p-2">
               I'm {full_name},pursed my Bachelor's degree in Computer Science in{" "}
               {year} in {age} years.
               <br />
