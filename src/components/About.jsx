@@ -21,7 +21,7 @@ const About = ({ full_name, image, role, resume, contacts, year, age }) => {
 
             <p className="col-12 col-md-12 p-2">
               I'm {full_name},pursed my Bachelor's degree in Computer Science in{" "}
-              {year} in {age} years.
+              {year}.
               <br />
               I have a keen interest in Computer Science and programming.
               <br />

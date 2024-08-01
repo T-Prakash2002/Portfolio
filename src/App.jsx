@@ -114,7 +114,7 @@ function App() {
         image={image}
         role={role}
         age={age}
-        year={education?.year}  
+        year={education?.college.year}  
         resume={resume}
         contacts={contacts}
       />

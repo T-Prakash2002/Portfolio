@@ -59,6 +59,17 @@
   text-wrap: nowrap;
 }
 
+.typing-text{
+  animation: blinker 3s linear infinite;
+  color: #020133;
+  font-weight: 700 !important;
+}
+
+@keyframes blinker {
+  0% { opacity: 0; }
+  50% { opacity: 1;color: #837d94b0; }
+  100% { opacity: 1; }
+}
 
 .hero .left .image_hero{
     position: relative;
@@ -72,19 +83,18 @@
         right: 0;
         bottom: 0;
         z-index: 1;
-        animation: clippath 3s infinite linear;
-       
+        animation: clippath 4s infinite ease-in;
     }
 }
 
 @keyframes clippath {
     0%{
         clip-path: inset(10% 10% 90% 90%);
-        border: 3px solid rgb(60, 255, 0);
+        border: 3px solid rgb(238, 225, 227);
     }
     25% {
         clip-path: inset(10% 90% 10% 90%);
-        border: 3px solid rgb(228, 228, 202);
+        border: 3px solid rgb(224, 224, 143);
     }
     50% {
         clip-path: inset(90% 10% 10% 90%);
@@ -92,11 +102,11 @@
     }
     75% {
         clip-path: inset(0% 0% 0% 0%);
-        border: 3px solid rgb(249, 250, 238);
+        border: 3px solid rgb(244, 253, 137);
     }
     100% {
         clip-path: inset(10% 10% 90% 90%);
-        border: 3px solid rgb(36, 221, 253);
+        border: 3px solid rgb(253, 159, 36);
     }
 }
 
