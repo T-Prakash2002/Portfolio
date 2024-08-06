@@ -41,13 +41,13 @@ const data={
         {
             "name": "LinkedIn",
             "icon_images": "https://img.icons8.com/color/48/000000/linkedin.png",
-            "link": "prakash1405",
+            "link": "https://www.linkedin.com/in/prakash1405",
             "icon_class": "fab fa-linkedin"
         },
         {
             "name": "Github",
             "icon_images": "https://img.icons8.com/color/48/000000/github.png",
-            "link": "T-Prakash2002",
+            "link": "https://github.com/T-Prakash2002",
             "icon_class": "fab fa-github"
         },
         {
