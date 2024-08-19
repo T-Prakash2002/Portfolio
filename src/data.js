@@ -16,7 +16,7 @@ import task from './assets/projects/Task-management.jpg'
 import egadgets from './assets/projects/E-gadgets.jfif'
 import tours from './assets/projects/tour-management.jfif'
 import real from './assets/projects/real-estate.jpg'   
-import time-tracking from './assets/projects/Time-tracking.jpg'
+import time from './assets/projects/Time-tracking.jpg'
 
 const data={
     "id": 1,
@@ -139,7 +139,7 @@ const data={
             "name": "Time-Tracking Interface",
             "front_end": "https://github.com/T-Prakash2002/Time-Tracking-Interface-ts.git",
             "back_end": "https://github.com/T-Prakash2002/Time-Tracking-Interface-BE.git",
-            "image": time-tracking,
+            "image": time,
             "live_link":"https://time-tracking132.netlify.app/",
             "tech_used": "ReactJs,Nodejs,MongoDB"
         }
