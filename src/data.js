@@ -191,7 +191,7 @@ const data={
             "description": "MySQL is a widely used open-source relational database management system (RDBMS) that was developed by Oracle Corporation. It is known for its speed, scalability, and ease of use."
         },
         {
-            "name": "GitGub",
+            "name": "GitHub",
             "icon_images": github,
             "description": "GitHub is a web-based hosting service for version control of code using Git. It is widely used for collaboration and version control of code."
         }
