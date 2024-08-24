@@ -87,7 +87,7 @@ const Contact = ({ contacts, full_name }) => {
                     target="_blank"
                     className="icon-link"
                   >
-                    https://www.linkedin.com/in/{contacts.socials[0].link}
+                    {contacts.socials[0].link}
                   </a>
                 </div>
               </div>
@@ -113,7 +113,7 @@ const Contact = ({ contacts, full_name }) => {
                     target="_blank"
                     className="icon-link"
                   >
-                    https://github.com/{contacts.socials[1].link}
+                    {contacts.socials[1].link}
                   </a>
                 </div>
               </div>
