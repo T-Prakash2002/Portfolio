@@ -72,7 +72,7 @@ const Contact = ({ contacts, full_name }) => {
                 <div className="info-right">
                   <div className="head">
                     <a
-                      href={`https://www.linkedin.com/in/${contacts.socials[0].link}`}
+                      href={`${contacts.socials[0].link}`}
                       target="_blank"
                     >
                       <i className={contacts.socials[0].icon_class}id="linkedinIcon">
@@ -83,7 +83,7 @@ const Contact = ({ contacts, full_name }) => {
                     </a>
                   </div>
                   <a
-                    href={`https://www.linkedin.com/in/${contacts.socials[0].link}`}
+                    href={`${contacts.socials[0].link}`}
                     target="_blank"
                     className="icon-link"
                   >
@@ -98,7 +98,7 @@ const Contact = ({ contacts, full_name }) => {
                 <div className="info-right">
                   <div className="head">
                     <a
-                      href={`https://github.com/${contacts.socials[1].link}`}
+                      href={`${contacts.socials[1].link}`}
                       target="_blank"
                     >
                       <i className={contacts.socials[1].icon_class}id="githubIcon">
@@ -109,7 +109,7 @@ const Contact = ({ contacts, full_name }) => {
                     </a>
                   </div>
                   <a
-                    href={`https://github.com/${contacts.socials[1].link}`}
+                    href={`${contacts.socials[1].link}`}
                     target="_blank"
                     className="icon-link"
                   >
